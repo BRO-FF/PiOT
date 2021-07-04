@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiOT</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="index" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l5 w-auto" src="img/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="index"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <b>
+                <a href="index" class="mx-3 py-3 indigo no-underline hover-underline"> Home</a>
+                <a href="Scan" class=" mx-3 py-3 indigo no-underline hover-underline">Scan</a>
+                <a href="Manage" class="mx-3 py-3 indigo no-underline hover-underline">Manage</a>
+                <a class="mx-3 py-3 green no-underline hover-underline">Connected</a>
+            </b>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <!-- <section id="home" class="min-h-100vh flex justify-start items-center"> -->
+    <section id="home" class="p-10 md-p-l5">
+        <div id="slider-2">
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative justify-center items-center text-center">
+              <!-- <div class="m-3 p-5 br-8 bg-indigo-lightest-10 overflow-hidden mx-auto"> -->
+                    <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">PiOT <br /><span class="border-b bc-indigo bw-4">Sécuriser votre réseau d'IOT </span> </h1>
+                </div>
+            </div>
+        <div class="white opacity-20 fs-s3 mt-3">Open source project</span>
+        </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features" class="p-10 md-p-l5">
+      <div class="flex  flex-column items-center">
+          <h2 class="white fs-l3 fw-900">Voici l'équipe de choc</h2>
+
+        <div class="flex flex-column md-flex-row mx-auto items-center justify-between">
+            <div class="text-center">
+
+                <div class="br-8 p-5 m-5">
+                    <h4 class="white fw-600 fs-m3 mb-5">Brofferio Guillaume</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">ESGI - ENGIE Global Energy Mgt</div>
+                    <a href="https://www.linkedin.com/in/guillaume-brofferio-47a947183/" class="mt-5 button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">LinkedIn</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="br-8 p-5 m-5">
+                    <h4 class="white fw-600 fs-m3 mb-5">Lengrand Ethan</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">ESGI - Entreprise Verisure</div>
+                    <a href="https://www.linkedin.com/in/ethan-lengrand-847549150/" class="mt-5 button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">LinkedIn</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="br-8 p-5 m-5">
+                    <h4 class="white fw-600 fs-m3 mb-5">Blot Gomes Stéphane</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">ESGI - Entreprise Keolis</div>
+                    <a href="https://www.linkedin.com/in/st%C3%A9phane-blot-gomes-1508a4171/" class="mt-5 button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">LinkedIn</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="br-8 p-5 m-5">
+                    <h4 class="white fw-600 fs-m3 mb-5">Simion <br> Swan</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">ESGI - Manutan International</div>
+                    <a href="https://www.linkedin.com/in/swan-simion-63336a1b6/" class="mt-5 button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+    <section class="relative bg-indigo-lightest-10">
+        <div id="slider-1">
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">A quoi sert le projet ?</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Ce projet est un projet de fin d'étude de la part de 4 étudiant de l'ESGI :)<br>Les IOT prennent de plus en plus de place dans notre vie. ce projet a donc pour but de vous donner une solution tout en un pour mitiger les failles de sécurité présentes sur vos IOT  </p>
+                <a href="#" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">Aller vers le github</a>
+            </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</body>
+</html>

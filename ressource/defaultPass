@@ -1,0 +1,75 @@
+ACTi,admin,123456
+ACTi,Admin,123456
+Amcrest,admin,admin
+American Dynamics,admin,admin
+American Dynamics,admin,9999
+Arecont Vision,,
+AvertX,admin,1234
+Avigilon,admin,admin
+Avigilon,Administrator,
+Axis,root,pass
+Basler,admin,admin
+Bosch,,
+Brickcom,admin,admin
+Canon,root,camera
+Cisco,,
+Dahua,admin,admin
+Digital Watchdog,admin,admin
+DRS,admin,1234
+DVTel,Admin,1234
+DynaColor,Admin,1234
+FLIR,admin,fliradmin
+FLIR Dahua OEM,admin,admin
+FLIR Quasar,Ariel,admin,admin
+Foscam,admin,
+GeoVision,admin,admin
+Grandstream,admin,admin
+Hanwha,admin,
+Hikvision,admin,12345
+Honeywell,admin,1234
+IndigoVision Ultra,,
+IndigoVision BX GX,Admin,1234
+Intellio,admin,admin
+Interlogix admin,1234,
+IQinVision,root,system
+IPX-DDK,root,admin
+IPX-DDK,root,Admin
+JVC,admin,jvc
+Longse,admin,12345
+Lorex,admin,admin
+LTS,admin,12345
+March Networks,admin,
+Mobotix,admin,meinsm
+Northern,admin,12345
+Oncam,admin,admin
+Panasonic,admin,12345
+Pelco,admin,admin
+Pixord,admin,admin
+Q-See,admin,admin
+Q-See,admin,123456
+Raspberry pi,pi,raspberry
+Reolink,admin,
+Samsung Electronics,root,root
+Samsung Electronics,admin,4321
+Samsung Techwin,admin,1111111
+Samsung admin,4321,
+Sanyo,admin,admin
+Scallop,admin,password
+Sentry360 mini,admin,1234
+Sentry360 pro,,
+Sony,admin,admin
+Speco,admin,1234
+Stardot,admin,admin
+Starvedia,admin,
+Sunell,admin,admin
+SV3C,admin,123456
+Swann,admin,12345
+Trendnet,admin,admin
+Toshiba,root,ikwd
+VideoIQ,supervisor,supervisor
+Vivotek,root,
+Ubiquiti,ubnt,ubnt
+Uniview,admin,123456
+W-Box Hikvision,admin,wbox123
+W-Box Sunell,admin,admin
+Wodsee,admin,

@@ -1,0 +1,14 @@
+body {
+  background-color: blue;
+}
+#the-string {
+  display: none;
+}
+.content-box {
+  column-width: 10px;
+}
+.button {
+    height: calc(1rem + .50rem + 1px);
+    padding: 0.375rem calc(.75rem + 1rem);
+    font-size: .8rem;
+}

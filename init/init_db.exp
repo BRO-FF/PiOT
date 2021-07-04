@@ -1,0 +1,29 @@
+#!/usr/bin/expect
+set timeout -1
+spawn /usr/bin/mysql -u root -h localhost
+
+expect ">"
+send -- "drop user 'root'@'localhost';\r"
+
+expect ">"
+send -- "create user 'root'@'localhost' identified by 'toor';\r"
+
+expect ">"
+send -- "create database corpus;\r"
+
+expect ">"
+send -- "create user 'corpus'@'localhost' identified by 'toor';\r"
+
+expect ">"
+send -- "grant all privileges on corpus.* to 'root'@'localhost';\r"
+
+expect ">"
+send -- "grant all privileges on corpus.* to 'corpus'@'localhost';\r"
+
+expect ">"
+send -- "grant all privileges on *.* to 'root'@'localhost';\r"
+
+expect ">"
+send -- "exit\r"
+
+expect eof
