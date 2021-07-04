@@ -14,6 +14,7 @@ The main goals here is to provide an all-in-one solutions to try mitigate securi
 - Mac address based inspection
 - Firewall filtering
 - Defaut password scans
+- Deep Scans
 - Network segmentation
 
 ## Team
