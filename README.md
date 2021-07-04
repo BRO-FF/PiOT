@@ -24,9 +24,9 @@ Our awesome team
 - Guillaume BROFFERIO
 
 ## Install
-cat requirement-apt | xargs apt install -y
-pip3 install -r requirement-pip
-expect init/init_db.exp
+- cat requirement-apt | xargs apt install -y
+- pip3 install -r requirement-pip
+- expect init/init_db.exp
 
 ## Install
 Run CherryPy :
