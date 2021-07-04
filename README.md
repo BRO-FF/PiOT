@@ -16,15 +16,6 @@ The main goals here is to provide an all-in-one solutions to try mitigate securi
 - Defaut password scans
 - Network segmentation
 
-## In development
-- Safe to keep password
-- Mail server to send warning when new device found
-- add password flush rules
-- inteface graphique
-- add rules ssh different port
-- scan ip publique (pas shodan)
-- ip privee en /16 plutot que /24
-
 ## Team
 Our awesome team
 - Ethan LENGRAND
@@ -40,8 +31,3 @@ expect init/init_db.exp
 ## Install
 Run CherryPy :
 python3 /opt/projetmaster-master/graph/tut01.py
-
-## ToDo
-- Function scan_asset -> display un report sur la webinterface
-- Function display_base(device || IP || mac || isUp) -> n=1 [x(n) for x in list_de_tuple]
-
