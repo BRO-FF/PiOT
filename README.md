@@ -17,6 +17,8 @@ The main goals here is to provide an all-in-one solutions to try mitigate securi
 - Deep Scans
 - Network segmentation
 
+Wi-Fi access point based on https://github.com/gkallenborn/HomeFW
+
 ## Team
 Our awesome team
 - Ethan LENGRAND
